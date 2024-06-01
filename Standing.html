@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple landing page using html css in hindi</title>
+<style type="text/css">
+*{
+    padding: 0; margin:0; box-sizing: border-box;
+    header{
+width: 100%;
+height: 100vh;
+background: linear-gradient(rgba(59, 58, 58, 0.8), rgba(70, 67, 67, 0.2)),url("background.jpg");
+background-size: cover;
+font-family: sans-serif;
+}
+
+    nav{
+width: 100%;
+height: 100px;
+
+color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+}
+.register a{
+    text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+background: indianred;
+border-radius: 8px;
+}
+}
+
+.h-txt{
+    max-width: 650px;
+position: absolute;
+top:50%;
+Left: 50%;
+transform: translate (-50%, -50%);
+text-align: center;
+color: white;
+}
+.h-txt span{
+    letter-spacing: 5px;
+}
+.h-txt h1{
+    font-size: 3em;
+}
+.h-txt a{
+    text-decoration:none;
+    background: indianred;
+    color: white;
+    padding: 10px 20px;
+    Letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="logo">
+            Housing-X 
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Rent</a>
+            <a href="#">Buy</a>
+            <a href="#">Sell</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="register">
+            <a href="#"> 
+              Register
+            </a>
+
+        </div>
+      </nav>
+      <section class="h-txt">
+        <span>Live</span>
+        <h1>Real Estate</h1>
+        <br>
+        <a href="#">Find your perfect home</a>
+        </section>
+    </header>
+</body>
+</html>
